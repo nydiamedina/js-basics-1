@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'It\'s a software that is used as a version control system to track changes in any set of files.';
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'It\'s a hosting service for software development projects that uses Git as version control system.';
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: 'Create an empty Git repository or reinitialize an existing one.',
+    code: 'git init',
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'Clone a new repository into a new directory.',
+    code: 'git clone <repository>'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: 'Show the working tree status.',
+    code: 'git status',
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: 'Add file contents to the index.',
+    code: 'git add <file>',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,10 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'Record changes to the repository.',
+    code: 'git commit -am "commit message"',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +103,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'Update remote refs along with associated objects.',
+    code: 'git push <remote> <branch>',
+}
