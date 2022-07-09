@@ -93,7 +93,7 @@ let add = {
 
 let commit = {
     description: 'Record changes to the repository.',
-    code: 'git commit -am "commit message"',
+    code: 'git commit -m "commit message"',
 }
 
 //////////////////PROBLEM 8////////////////////
